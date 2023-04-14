@@ -17,4 +17,32 @@ body {
     left: 0;
     width: 100%;
     z-index: 1;
+  }
+  
+  #header-img {
+    height: 50px;
+  }
+  
+  #nav-bar {
+    margin-right: 10px;
+  }
+  
+  #nav-bar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #nav-bar li {
+    margin: 0 10px;
+  }
+  
+  #nav-bar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #nav-bar a:hover {
+    text-decoration: underline
   
